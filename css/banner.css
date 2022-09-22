@@ -13,8 +13,17 @@ header{
     height: 100vh;
     background:rgba(0,0,0,0.6);
 }
-.nav-btn{
-
+.nav-btn button{
+    width: 200px;
+    min-width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: rgb(219, 213, 212);
+    border: none;
+    border: 1px solid  rgb(219, 213, 212);
 }
 .btnlinks button{
     width: 200px;
